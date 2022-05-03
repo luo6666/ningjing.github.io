@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+/*._phone{*/
+/*    width: 255px;*/
+/*    height: 543.75px;*/
+/*    background-image: url('../images/iphone_x.png');*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 95%;*/
+/*    padding:13.5px 20.25px ;*/
+/*    overflow: hidden;*/
+/*    margin: 37.5px auto;*/
+/*}*/
+.info{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.isPC {
+    width: 243.75px;
+    height: 528.75px;
+    /*border-radius: 28.125px;*/
+    overflow: hidden;
+    margin: 7.5px auto;
+}
+/*首页*/
+#start{
+    position: absolute;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 999;
+    overflow: hidden;
+}
+
+#start h1{
+    display: block;
+    width: 100%;
+    height: 187.5px;
+}
+#start h1 img{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+}
+#start h2{
+    display: block;
+    width: 100%;
+    height: 187.5px;
+}
+#start h2 img{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 28%;
+    transform: translateX(-50%);
+}
+.start{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    line-height: 43.125px;
+    border: 3.75px solid #000;
+    text-align: center;
+    font-size: 30px;
+    left: 50%;
+    bottom: 112.5px;
+    transform: translateX(-50%);
+    border-radius: 18.75px;
+    color: #333333;
+    font-weight: bold;
+}
+#start .help{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 40%;
+    border: 11.25px double rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 0 auto;
+    background-image: url("../images/help2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #fff;
+    z-index: 1000;
+    display: none;
+}
+#start>i{
+    position: absolute;
+    left: 64%;
+    top: 17%;
+    transform: translate(-50%,-50%);
+    width:18.75px;
+    height:18.75px;
+    background: url("../images/helpBtn.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* 捏一捏界面 */
+
+
